@@ -1,0 +1,5 @@
+[2018-03-12 16:34:11,734] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-12 16:34:11,748] - logger.py] - INFO: 输入员工姓名：
+[2018-03-12 16:34:11,749] - logger.py] - INFO: 输入电话号码：
+[2018-03-12 16:34:11,766] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-12 16:34:11,767] - logger.py] - INFO: 获取测试结果：{'message': [{'msg': 'session会话过期', 'field': None}], 'data': None, 'status': 4013}

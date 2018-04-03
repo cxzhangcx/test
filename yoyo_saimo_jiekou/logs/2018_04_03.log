@@ -1,0 +1,17 @@
+[2018-04-03 15:55:13,489] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-04-03 15:55:13,500] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-04-03 15:55:13,501] - logger.py] - INFO: 输入正确密码：123456
+[2018-04-03 15:55:13,559] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"6a316bcde696434f9ec3ab93ff62c833","acctType":0,"list":[{"companyCode":"C18032800003","companyId":"901","companyName":"\xe6\xb5\x8b\xe8\xaf\x95\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-04-03 15:55:13,560] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '登录成功'}], 'status': 2000, 'data': {'acctType': 0, 'tokenId': '6a316bcde696434f9ec3ab93ff62c833', 'list': [{'companyId': '901', 'companyCode': 'C18032800003', 'companyName': '测试公司'}]}}
+[2018-04-03 15:55:13,560] - logger.py] - INFO: ------pass!---------
+[2018-04-03 15:55:13,561] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-04-03 15:55:13,561] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-04-03 15:55:13,562] - logger.py] - INFO: 输入错误密码：1234
+[2018-04-03 15:55:13,603] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-04-03 15:55:13,604] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '用户名或者密码错误'}], 'status': 4010, 'data': None}
+[2018-04-03 15:55:13,604] - logger.py] - INFO: ------pass!---------
+[2018-04-03 15:55:13,605] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-04-03 15:55:13,605] - logger.py] - INFO: 输入员工姓名：
+[2018-04-03 15:55:13,605] - logger.py] - INFO: 输入电话号码：
+[2018-04-03 15:55:13,613] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-04-03 15:55:13,614] - logger.py] - INFO: 获取测试结果：{'message': [{'field': None, 'msg': 'session会话过期'}], 'status': 4013, 'data': None}

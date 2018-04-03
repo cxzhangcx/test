@@ -1,0 +1,60 @@
+[2018-03-05 10:38:17,313] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 10:38:17,341] - logger.py] - INFO: 输入员工姓名：1
+[2018-03-05 10:38:17,341] - logger.py] - INFO: 输入电话号码：2
+[2018-03-05 10:38:17,374] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 10:38:17,374] - logger.py] - INFO: 获取测试结果：{'data': None, 'status': 4013, 'message': [{'msg': 'session会话过期', 'field': None}]}
+[2018-03-05 10:39:57,694] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 10:39:57,694] - logger.py] - INFO: 输入员工姓名：
+[2018-03-05 10:39:57,695] - logger.py] - INFO: 输入电话号码：
+[2018-03-05 10:39:57,704] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 10:39:57,704] - logger.py] - INFO: 获取测试结果：{'status': 4013, 'data': None, 'message': [{'msg': 'session会话过期', 'field': None}]}
+[2018-03-05 10:40:05,060] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 10:40:05,061] - logger.py] - INFO: 输入员工姓名：
+[2018-03-05 10:40:05,061] - logger.py] - INFO: 输入电话号码：
+[2018-03-05 10:40:05,070] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 10:40:05,071] - logger.py] - INFO: 获取测试结果：{'status': 4013, 'message': [{'msg': 'session会话过期', 'field': None}], 'data': None}
+[2018-03-05 11:00:01,334] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-05 11:00:01,335] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-05 11:00:01,335] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-05 11:00:01,354] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-05 11:00:01,354] - logger.py] - INFO: 获取测试结果：{'status': 4010, 'message': [{'msg': '用户名或者密码错误', 'field': ''}], 'data': None}
+[2018-03-05 11:00:01,355] - logger.py] - INFO: ------pass!---------
+[2018-03-05 11:00:33,384] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-05 11:00:33,384] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-05 11:00:33,384] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-05 11:00:33,420] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"0c567309d65fc095bdd12ead72bbacbe","acctType":0,"list":[{"companyCode":"C18011900001","companyId":"878","companyName":"LAMER\xe5\x85\xac\xe5\x8f\xb8"},{"companyCode":"C18022700001","companyId":"886","companyName":"\xe4\xb8\x93\xe6\xb5\x8b\xe7\x89\xa9\xe6\x96\x99\xe5\xaf\xbc\xe5\x85\xa5\xe7\x9a\x84\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-03-05 11:00:33,421] - logger.py] - INFO: 获取测试结果：{'status': 2000, 'data': {'acctType': 0, 'tokenId': '0c567309d65fc095bdd12ead72bbacbe', 'list': [{'companyId': '878', 'companyName': 'LAMER公司', 'companyCode': 'C18011900001'}, {'companyId': '886', 'companyName': '专测物料导入的公司', 'companyCode': 'C18022700001'}]}, 'message': [{'msg': '登录成功', 'field': ''}]}
+[2018-03-05 11:00:33,421] - logger.py] - INFO: ------pass!---------
+[2018-03-05 11:00:33,423] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-05 11:00:33,423] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-05 11:00:33,423] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-05 11:00:33,441] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-05 11:00:33,442] - logger.py] - INFO: 获取测试结果：{'status': 4010, 'data': None, 'message': [{'msg': '用户名或者密码错误', 'field': ''}]}
+[2018-03-05 11:00:33,456] - logger.py] - INFO: ------pass!---------
+[2018-03-05 13:33:04,260] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-05 13:33:04,261] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-05 13:33:04,261] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-05 13:33:04,289] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"8ba5c2a4afdf87c5c7b402b8b8e92513","acctType":0,"list":[{"companyCode":"C18011900001","companyId":"878","companyName":"LAMER\xe5\x85\xac\xe5\x8f\xb8"},{"companyCode":"C18022700001","companyId":"886","companyName":"\xe4\xb8\x93\xe6\xb5\x8b\xe7\x89\xa9\xe6\x96\x99\xe5\xaf\xbc\xe5\x85\xa5\xe7\x9a\x84\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-03-05 13:33:04,289] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '登录成功'}], 'status': 2000, 'data': {'tokenId': '8ba5c2a4afdf87c5c7b402b8b8e92513', 'list': [{'companyCode': 'C18011900001', 'companyName': 'LAMER公司', 'companyId': '878'}, {'companyCode': 'C18022700001', 'companyName': '专测物料导入的公司', 'companyId': '886'}], 'acctType': 0}}
+[2018-03-05 13:33:04,289] - logger.py] - INFO: ------pass!---------
+[2018-03-05 13:33:04,290] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-05 13:33:04,290] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-05 13:33:04,291] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-05 13:33:04,304] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-05 13:33:04,304] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '用户名或者密码错误'}], 'status': 4010, 'data': None}
+[2018-03-05 13:33:04,304] - logger.py] - INFO: ------pass!---------
+[2018-03-05 13:33:04,305] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 13:33:04,305] - logger.py] - INFO: 输入员工姓名：
+[2018-03-05 13:33:04,306] - logger.py] - INFO: 输入电话号码：
+[2018-03-05 13:33:04,311] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 13:33:04,312] - logger.py] - INFO: 获取测试结果：{'message': [{'field': None, 'msg': 'session会话过期'}], 'status': 4013, 'data': None}
+[2018-03-05 13:47:57,756] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 13:47:57,756] - logger.py] - INFO: 输入员工姓名：
+[2018-03-05 13:47:57,756] - logger.py] - INFO: 输入电话号码：
+[2018-03-05 13:47:57,768] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 13:47:57,769] - logger.py] - INFO: 获取测试结果：{'message': [{'msg': 'session会话过期', 'field': None}], 'status': 4013, 'data': None}
+[2018-03-05 14:23:09,342] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-05 14:23:09,342] - logger.py] - INFO: 输入员工姓名：
+[2018-03-05 14:23:09,342] - logger.py] - INFO: 输入电话号码：
+[2018-03-05 14:23:09,353] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-05 14:23:09,353] - logger.py] - INFO: 获取测试结果：{'status': 4013, 'data': None, 'message': [{'field': None, 'msg': 'session会话过期'}]}

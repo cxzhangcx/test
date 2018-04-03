@@ -1,0 +1,131 @@
+[2018-03-02 16:46:28,816] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 16:46:28,816] - logger.py] - INFO: 输入正确账号：这里是抓包后获取的博客园的加密账号
+[2018-03-02 16:46:28,817] - logger.py] - INFO: 输入正确密码：这里是抓包后获取的博客园的加密密码
+[2018-03-02 16:46:29,096] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 16:46:29,096] - logger.py] - INFO: 输入正确账号：这里是抓包后获取的博客园的加密账号
+[2018-03-02 16:46:29,097] - logger.py] - INFO: 输入错误密码：这里是抓包后获取的博客园的加密账号
+[2018-03-02 16:46:29,146] - logger.py] - INFO: ----------start!-------
+[2018-03-02 16:46:29,146] - logger.py] - INFO: 测试单号：560697415000  快递名称：天天快递
+[2018-03-02 16:46:29,146] - logger.py] - INFO: 测试url地址：http://www.kuaidi.com/index-ajaxselectcourierinfo-560697415000-tiantian.html
+[2018-03-02 16:46:33,790] - logger.py] - INFO: 获取请求结果：{'success': False, 'rank': '2.4', 'url': 'http://www.ttkdex.com', 'exceed': '', 'nu': '560697415000', 'ico': '/data/upload/201407/tt_logo.gif', 'timeused': '--', 'status': 0, 'company': None, 'companytype': 'tiantian', 'reason': '快递公司参数异常：单号不存在或者已经过期', 'phone': '400-188-8888', 'time': '', 'data': ''}
+[2018-03-02 16:46:33,792] - logger.py] - INFO: 获取公司名称：None
+[2018-03-02 16:46:33,793] - logger.py] - INFO: 获取data内容：
+[2018-03-02 16:46:33,797] - logger.py] - INFO: ----------start!-------
+[2018-03-02 16:46:33,798] - logger.py] - INFO: 测试单号：1202247993797  快递名称：韵达快递
+[2018-03-02 16:46:33,801] - logger.py] - INFO: 测试url地址：http://www.kuaidi.com/index-ajaxselectcourierinfo-1202247993797-yunda.html
+[2018-03-02 16:46:33,995] - logger.py] - INFO: 获取请求结果：{'success': True, 'rank': '2.4', 'url': 'http://www.yundaex.com', 'exceed': '', 'nu': '1202247993797', 'ico': '/data/upload/201407/yd_logo.gif', 'timeused': '--', 'status': 6, 'company': '韵达快递', 'companytype': 'yunda', 'reason': '', 'phone': '95546', 'time': '', 'data': [{'time': '2016-08-21 19:47:14', 'context': '到达：贵州都匀市公司 由 已签收 签收'}, {'time': '2016-08-21 09:45:36', 'context': '到达：贵州都匀市公司 指定： 派送'}, {'time': '2016-08-20 06:32:38', 'context': '到达：贵州贵阳分拨中心 发往：贵州都匀市公司'}, {'time': '2016-08-20 06:17:24', 'context': '到达：贵州贵阳分拨中心 上级站点：福建晋江分拨中心'}, {'time': '2016-08-18 21:48:53', 'context': '到达：福建晋江分拨中心 发往：贵州贵阳分拨中心'}, {'time': '2016-08-18 21:46:25', 'context': '到达：福建晋江分拨中心'}, {'time': '2016-08-18 08:30:44', 'context': '到达：福建市场部台江服务部 大包称重'}, {'time': '2016-08-18 06:48:19', 'context': '到达：福建市场部台江服务部 发往：贵州贵阳分拨中心'}, {'time': '2016-08-18 06:37:54', 'context': '到达：福建市场部台江服务部 已揽件'}, {'time': '2016-08-18 05:51:57', 'context': '到达：福建市场部台江服务部 已揽件'}]}
+[2018-03-02 16:46:33,996] - logger.py] - INFO: 获取公司名称：韵达快递
+[2018-03-02 16:46:33,996] - logger.py] - INFO: 获取data内容：[{'time': '2016-08-21 19:47:14', 'context': '到达：贵州都匀市公司 由 已签收 签收'}, {'time': '2016-08-21 09:45:36', 'context': '到达：贵州都匀市公司 指定： 派送'}, {'time': '2016-08-20 06:32:38', 'context': '到达：贵州贵阳分拨中心 发往：贵州都匀市公司'}, {'time': '2016-08-20 06:17:24', 'context': '到达：贵州贵阳分拨中心 上级站点：福建晋江分拨中心'}, {'time': '2016-08-18 21:48:53', 'context': '到达：福建晋江分拨中心 发往：贵州贵阳分拨中心'}, {'time': '2016-08-18 21:46:25', 'context': '到达：福建晋江分拨中心'}, {'time': '2016-08-18 08:30:44', 'context': '到达：福建市场部台江服务部 大包称重'}, {'time': '2016-08-18 06:48:19', 'context': '到达：福建市场部台江服务部 发往：贵州贵阳分拨中心'}, {'time': '2016-08-18 06:37:54', 'context': '到达：福建市场部台江服务部 已揽件'}, {'time': '2016-08-18 05:51:57', 'context': '到达：福建市场部台江服务部 已揽件'}]
+[2018-03-02 16:46:33,997] - logger.py] - INFO: 获取已签收状态：到达：贵州都匀市公司 由 已签收 签收
+[2018-03-02 16:46:33,997] - logger.py] - INFO: ----------pass!-------
+[2018-03-02 17:03:01,476] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:03:01,477] - logger.py] - INFO: 输入正确账号：这里是抓包后获取的博客园的加密账号
+[2018-03-02 17:03:01,477] - logger.py] - INFO: 输入正确密码：这里是抓包后获取的博客园的加密密码
+[2018-03-02 17:03:01,773] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:03:01,774] - logger.py] - INFO: 输入正确账号：这里是抓包后获取的博客园的加密账号
+[2018-03-02 17:03:01,775] - logger.py] - INFO: 输入错误密码：这里是抓包后获取的博客园的加密账号
+[2018-03-02 17:03:01,848] - logger.py] - INFO: ----------start!-------
+[2018-03-02 17:03:01,849] - logger.py] - INFO: 测试单号：560697415000  快递名称：天天快递
+[2018-03-02 17:03:01,849] - logger.py] - INFO: 测试url地址：http://www.kuaidi.com/index-ajaxselectcourierinfo-560697415000-tiantian.html
+[2018-03-02 17:03:02,348] - logger.py] - INFO: 获取请求结果：{'exceed': '', 'rank': '2.4', 'ico': '/data/upload/201407/tt_logo.gif', 'data': '', 'status': 0, 'reason': '快递公司参数异常：单号不存在或者已经过期', 'companytype': 'tiantian', 'phone': '400-188-8888', 'success': False, 'time': '', 'url': 'http://www.ttkdex.com', 'nu': '560697415000', 'timeused': '--', 'company': None}
+[2018-03-02 17:03:02,350] - logger.py] - INFO: 获取公司名称：None
+[2018-03-02 17:03:02,351] - logger.py] - INFO: 获取data内容：
+[2018-03-02 17:03:02,354] - logger.py] - INFO: ----------start!-------
+[2018-03-02 17:03:02,356] - logger.py] - INFO: 测试单号：1202247993797  快递名称：韵达快递
+[2018-03-02 17:03:02,358] - logger.py] - INFO: 测试url地址：http://www.kuaidi.com/index-ajaxselectcourierinfo-1202247993797-yunda.html
+[2018-03-02 17:03:02,546] - logger.py] - INFO: 获取请求结果：{'exceed': '', 'rank': '2.4', 'ico': '/data/upload/201407/yd_logo.gif', 'data': [{'context': '到达：贵州都匀市公司 由 已签收 签收', 'time': '2016-08-21 19:47:14'}, {'context': '到达：贵州都匀市公司 指定： 派送', 'time': '2016-08-21 09:45:36'}, {'context': '到达：贵州贵阳分拨中心 发往：贵州都匀市公司', 'time': '2016-08-20 06:32:38'}, {'context': '到达：贵州贵阳分拨中心 上级站点：福建晋江分拨中心', 'time': '2016-08-20 06:17:24'}, {'context': '到达：福建晋江分拨中心 发往：贵州贵阳分拨中心', 'time': '2016-08-18 21:48:53'}, {'context': '到达：福建晋江分拨中心', 'time': '2016-08-18 21:46:25'}, {'context': '到达：福建市场部台江服务部 大包称重', 'time': '2016-08-18 08:30:44'}, {'context': '到达：福建市场部台江服务部 发往：贵州贵阳分拨中心', 'time': '2016-08-18 06:48:19'}, {'context': '到达：福建市场部台江服务部 已揽件', 'time': '2016-08-18 06:37:54'}, {'context': '到达：福建市场部台江服务部 已揽件', 'time': '2016-08-18 05:51:57'}], 'status': 6, 'reason': '', 'companytype': 'yunda', 'phone': '95546', 'success': True, 'time': '', 'url': 'http://www.yundaex.com', 'nu': '1202247993797', 'timeused': '--', 'company': '韵达快递'}
+[2018-03-02 17:03:02,547] - logger.py] - INFO: 获取公司名称：韵达快递
+[2018-03-02 17:03:02,548] - logger.py] - INFO: 获取data内容：[{'context': '到达：贵州都匀市公司 由 已签收 签收', 'time': '2016-08-21 19:47:14'}, {'context': '到达：贵州都匀市公司 指定： 派送', 'time': '2016-08-21 09:45:36'}, {'context': '到达：贵州贵阳分拨中心 发往：贵州都匀市公司', 'time': '2016-08-20 06:32:38'}, {'context': '到达：贵州贵阳分拨中心 上级站点：福建晋江分拨中心', 'time': '2016-08-20 06:17:24'}, {'context': '到达：福建晋江分拨中心 发往：贵州贵阳分拨中心', 'time': '2016-08-18 21:48:53'}, {'context': '到达：福建晋江分拨中心', 'time': '2016-08-18 21:46:25'}, {'context': '到达：福建市场部台江服务部 大包称重', 'time': '2016-08-18 08:30:44'}, {'context': '到达：福建市场部台江服务部 发往：贵州贵阳分拨中心', 'time': '2016-08-18 06:48:19'}, {'context': '到达：福建市场部台江服务部 已揽件', 'time': '2016-08-18 06:37:54'}, {'context': '到达：福建市场部台江服务部 已揽件', 'time': '2016-08-18 05:51:57'}]
+[2018-03-02 17:03:02,549] - logger.py] - INFO: 获取已签收状态：到达：贵州都匀市公司 由 已签收 签收
+[2018-03-02 17:03:02,550] - logger.py] - INFO: ----------pass!-------
+[2018-03-02 17:03:02,552] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:03:02,553] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:03:02,554] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:03:02,574] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:03:02,575] - logger.py] - INFO: 获取测试结果：{'data': None, 'message': [{'msg': 'Server Error', 'field': ''}], 'status': 500}
+[2018-03-02 17:03:02,577] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:03:02,578] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:03:02,579] - logger.py] - INFO: 输入错误密码：17621255007
+[2018-03-02 17:03:02,595] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:03:02,596] - logger.py] - INFO: 获取测试结果：{'data': None, 'message': [{'msg': 'Server Error', 'field': ''}], 'status': 500}
+[2018-03-02 17:10:16,387] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:10:16,388] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:10:16,388] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:10:16,422] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:10:16,422] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': 'Server Error'}], 'data': None, 'status': 500}
+[2018-03-02 17:10:16,425] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:10:16,425] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:10:16,426] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:10:16,441] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:10:16,441] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': 'Server Error'}], 'data': None, 'status': 500}
+[2018-03-02 17:11:16,625] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:11:16,625] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:11:16,626] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:11:16,654] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:11:16,655] - logger.py] - INFO: 获取测试结果：{'data': None, 'message': [{'field': '', 'msg': 'Server Error'}], 'status': 500}
+[2018-03-02 17:11:16,658] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:11:16,658] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:11:16,658] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:11:16,671] - logger.py] - INFO: 赛摩登录结果：b'{"status":500,"message":[{"field":"","msg":"Server Error"}],"data":null}'
+[2018-03-02 17:11:16,671] - logger.py] - INFO: 获取测试结果：{'data': None, 'message': [{'field': '', 'msg': 'Server Error'}], 'status': 500}
+[2018-03-02 17:11:16,672] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:13:37,688] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:13:37,688] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:13:37,689] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:13:37,724] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:13:37,725] - logger.py] - INFO: 获取测试结果：{'status': 4010, 'data': None, 'message': [{'field': '', 'msg': '用户名或者密码错误'}]}
+[2018-03-02 17:15:08,061] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:15:08,062] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:15:08,062] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:15:08,102] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:15:08,103] - logger.py] - INFO: 获取测试结果：{'data': None, 'message': [{'field': '', 'msg': '用户名或者密码错误'}], 'status': 4010}
+[2018-03-02 17:15:08,103] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:15:34,608] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:15:34,608] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:15:34,609] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:15:34,656] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"82f8d8fb253957b9924d0800d728a7f9","acctType":0,"list":[{"companyCode":"C18011900001","companyId":"878","companyName":"LAMER\xe5\x85\xac\xe5\x8f\xb8"},{"companyCode":"C18022700001","companyId":"886","companyName":"\xe4\xb8\x93\xe6\xb5\x8b\xe7\x89\xa9\xe6\x96\x99\xe5\xaf\xbc\xe5\x85\xa5\xe7\x9a\x84\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-03-02 17:15:34,657] - logger.py] - INFO: 获取测试结果：{'status': 2000, 'data': {'list': [{'companyName': 'LAMER公司', 'companyCode': 'C18011900001', 'companyId': '878'}, {'companyName': '专测物料导入的公司', 'companyCode': 'C18022700001', 'companyId': '886'}], 'acctType': 0, 'tokenId': '82f8d8fb253957b9924d0800d728a7f9'}, 'message': [{'msg': '登录成功', 'field': ''}]}
+[2018-03-02 17:15:34,659] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:15:34,660] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:15:34,660] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:15:34,676] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:15:34,677] - logger.py] - INFO: 获取测试结果：{'status': 4010, 'data': None, 'message': [{'msg': '用户名或者密码错误', 'field': ''}]}
+[2018-03-02 17:15:34,677] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:17:03,675] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:17:03,676] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:17:03,676] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:17:03,717] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:17:03,718] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '用户名或者密码错误'}], 'data': None, 'status': 4010}
+[2018-03-02 17:17:03,719] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:17:10,433] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:17:10,433] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:17:10,433] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:17:10,476] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"12afa45a9558bb9ff9b2abb30e8b79c5","acctType":0,"list":[{"companyCode":"C18011900001","companyId":"878","companyName":"LAMER\xe5\x85\xac\xe5\x8f\xb8"},{"companyCode":"C18022700001","companyId":"886","companyName":"\xe4\xb8\x93\xe6\xb5\x8b\xe7\x89\xa9\xe6\x96\x99\xe5\xaf\xbc\xe5\x85\xa5\xe7\x9a\x84\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-03-02 17:17:10,477] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '登录成功'}], 'status': 2000, 'data': {'list': [{'companyId': '878', 'companyCode': 'C18011900001', 'companyName': 'LAMER公司'}, {'companyId': '886', 'companyCode': 'C18022700001', 'companyName': '专测物料导入的公司'}], 'acctType': 0, 'tokenId': '12afa45a9558bb9ff9b2abb30e8b79c5'}}
+[2018-03-02 17:17:10,477] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:17:10,478] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:17:10,478] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:17:10,479] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:17:10,495] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:17:10,495] - logger.py] - INFO: 获取测试结果：{'message': [{'field': '', 'msg': '用户名或者密码错误'}], 'status': 4010, 'data': None}
+[2018-03-02 17:17:10,496] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:17:42,050] - logger.py] - INFO: ------登录成功用例：start!---------
+[2018-03-02 17:17:42,051] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:17:42,051] - logger.py] - INFO: 输入正确密码：123456
+[2018-03-02 17:17:42,097] - logger.py] - INFO: 赛摩登录结果：b'{"status":2000,"message":[{"field":"","msg":"\xe7\x99\xbb\xe5\xbd\x95\xe6\x88\x90\xe5\x8a\x9f"}],"data":{"tokenId":"b1ad09900be991c071a79a393b89ef0c","acctType":0,"list":[{"companyCode":"C18011900001","companyId":"878","companyName":"LAMER\xe5\x85\xac\xe5\x8f\xb8"},{"companyCode":"C18022700001","companyId":"886","companyName":"\xe4\xb8\x93\xe6\xb5\x8b\xe7\x89\xa9\xe6\x96\x99\xe5\xaf\xbc\xe5\x85\xa5\xe7\x9a\x84\xe5\x85\xac\xe5\x8f\xb8"}]}}'
+[2018-03-02 17:17:42,098] - logger.py] - INFO: 获取测试结果：{'status': 2000, 'data': {'tokenId': 'b1ad09900be991c071a79a393b89ef0c', 'acctType': 0, 'list': [{'companyCode': 'C18011900001', 'companyName': 'LAMER公司', 'companyId': '878'}, {'companyCode': 'C18022700001', 'companyName': '专测物料导入的公司', 'companyId': '886'}]}, 'message': [{'field': '', 'msg': '登录成功'}]}
+[2018-03-02 17:17:42,098] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:17:42,099] - logger.py] - INFO: ------登录失败用例：start!---------
+[2018-03-02 17:17:42,099] - logger.py] - INFO: 输入正确账号：17621255007
+[2018-03-02 17:17:42,100] - logger.py] - INFO: 输入错误密码：1234
+[2018-03-02 17:17:42,116] - logger.py] - INFO: 赛摩登录结果：b'{"status":4010,"message":[{"field":"","msg":"\xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8d\xe6\x88\x96\xe8\x80\x85\xe5\xaf\x86\xe7\xa0\x81\xe9\x94\x99\xe8\xaf\xaf"}],"data":null}'
+[2018-03-02 17:17:42,116] - logger.py] - INFO: 获取测试结果：{'status': 4010, 'data': None, 'message': [{'field': '', 'msg': '用户名或者密码错误'}]}
+[2018-03-02 17:17:42,117] - logger.py] - INFO: ------pass!---------
+[2018-03-02 17:34:40,565] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-02 17:34:40,566] - logger.py] - INFO: 输入员工姓名：
+[2018-03-02 17:34:40,566] - logger.py] - INFO: 输入电话号码：
+[2018-03-02 17:35:16,599] - logger.py] - INFO: ------查询成功用例：start!---------
+[2018-03-02 17:35:16,600] - logger.py] - INFO: 输入员工姓名：
+[2018-03-02 17:35:16,600] - logger.py] - INFO: 输入电话号码：
+[2018-03-02 17:35:16,629] - logger.py] - INFO: 员工查询结果：b'{"status":4013,"message":[{"field":null,"msg":"session\xe4\xbc\x9a\xe8\xaf\x9d\xe8\xbf\x87\xe6\x9c\x9f"}],"data":null}'
+[2018-03-02 17:35:16,629] - logger.py] - INFO: 获取测试结果：{'status': 4013, 'data': None, 'message': [{'msg': 'session会话过期', 'field': None}]}
